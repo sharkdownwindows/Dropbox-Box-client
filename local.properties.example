@@ -1,0 +1,4 @@
+# Copy values into local.properties. Never put a client secret or token here.
+# SDK path: use your own machine's path, or let Android Studio set it.
+# sdk.dir=C:/Users/YOUR_NAME/AppData/Local/Android/Sdk
+DROPBOX_APP_KEY=

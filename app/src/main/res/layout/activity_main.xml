@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:id="@+id/session_status" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="16dp"
+        android:accessibilityLiveRegion="polite" android:text="@string/session_loading" />
+    <ProgressBar android:id="@+id/auth_progress" android:layout_width="match_parent"
+        android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="true" />
+    <LinearLayout android:id="@+id/login_controls" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <Button android:id="@+id/login" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/login_dropbox" />
+        <Button android:id="@+id/demo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/open_demo" />
+    </LinearLayout>
+    <Button android:id="@+id/logout" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/logout" android:visibility="gone" />
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/fragment_container"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:visibility="gone" />
+</LinearLayout>

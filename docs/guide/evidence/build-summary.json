@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Saigon",
+  "app_version": "0.2.0",
+  "java": "17.0.10",
+  "agp": "8.5.2",
+  "gradle": "8.7",
+  "compile_sdk": 34,
+  "dropbox_sdk": "7.0.0",
+  "verified_source_file_count": 40,
+  "build": "assembleDebug/testDebugUnitTest/lintDebug succeeded with --rerun-tasks in ASCII verification copy",
+  "tests": {
+    "tests": 25,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_suites": [
+    {
+      "name": "vn.edu.usth.cloudclient.auth.CredentialVaultTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "vn.edu.usth.cloudclient.model.FolderPageTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "lint_errors": 0,
+  "lint_warnings": 0,
+  "apk_sha256": "5a666a7b9ce69a30bd1dc0d0d65bd39dac856469b3e76fbf6adb6f36f98c9dcf",
+  "dropbox_app_key_configured_in_verified_apk": false,
+  "device_tested": false,
+  "keystore_device_tested": false,
+  "cloud_api_tested": false,
+  "sdk_with_mock_http_tested": true
+}

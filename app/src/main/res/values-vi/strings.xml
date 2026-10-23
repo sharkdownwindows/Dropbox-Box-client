@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cloud Client Lab</string>
+    <string name="demo_only">Dữ liệu giả — chưa kết nối Dropbox.</string>
+    <string name="root_folder">Thư mục gốc demo</string>
+    <string name="up">Lên trên</string>
+    <string name="refresh">Tải lại</string>
+    <string name="load_more">Tải thêm</string>
+    <string name="folder">Thư mục</string>
+    <string name="file_bytes">Tệp · %1$d B</string>
+    <string name="load_error">Không tải được thư mục. Thử lại hoặc quay lên trên.</string>
+    <string name="empty_folder">Thư mục trống.</string>
+    <string name="more_available">Vẫn còn trang kết quả. Nhấn Tải thêm.</string>
+    <string name="file_not_connected">Truyền tệp là bài thực hành. Xem hướng dẫn 06.</string>
+    <string name="session_loading">Đang mở phiên…</string>
+    <string name="login_intro">Kết nối Dropbox để duyệt tệp, hoặc thử dữ liệu demo.</string>
+    <string name="configure_key">Chưa cấu hình Dropbox. Thêm app key và build lại theo hướng dẫn 13.</string>
+    <string name="session_clear_error">Không xóa được phiên đã lưu. Hãy xóa dữ liệu ứng dụng trong Cài đặt Android trước khi đăng nhập lại.</string>
+    <string name="session_restore_error">Không khôi phục được phiên. Vui lòng đăng nhập lại.</string>
+    <string name="session_save_error">Không lưu được phiên an toàn. Kiểm tra dung lượng thiết bị và thử lại.</string>
+    <string name="dropbox_connected">Đã kết nối Dropbox</string>
+    <string name="login_dropbox">Đăng nhập Dropbox</string>
+    <string name="open_demo">Thử demo</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="dropbox_root">Thư mục gốc Dropbox</string>
+    <string name="error_auth">Phiên không còn hợp lệ. Vui lòng đăng nhập lại.</string>
+    <string name="error_permission">Dropbox từ chối quyền truy cập. Kiểm tra quyền ứng dụng rồi đăng nhập lại.</string>
+    <string name="error_not_found">Thư mục không còn tồn tại. Quay lên trên và tải lại.</string>
+    <string name="error_rate_limit">Đã gửi quá nhiều yêu cầu. Hãy đợi trước khi thử lại.</string>
+    <string name="error_service">Dropbox tạm thời không khả dụng. Hãy thử lại sau.</string>
+    <string name="back_to_login">Quay lại đăng nhập</string>
+    <string name="auth_start_error">Không mở được đăng nhập Dropbox. Kiểm tra cấu hình ứng dụng.</string>
+    <string name="auth_cancelled">Đăng nhập đã hủy hoặc chưa hoàn tất. Vui lòng thử lại.</string>
+</resources>

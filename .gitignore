@@ -1,0 +1,11 @@
+.gradle/
+.idea/
+**/build/
+local.properties
+secrets.properties
+*.jks
+*.keystore
+*.hprof
+captures/
+.DS_Store
+/Dropbox-Box-client/

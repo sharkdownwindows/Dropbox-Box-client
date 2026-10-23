@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites tests="25" failures="0" errors="0" skipped="0"><testsuite name="vn.edu.usth.cloudclient.auth.CredentialVaultTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-16T09:19:03" hostname="WHITEWOLF" time="0.008">
+  <properties />
+  <testcase name="invalidationDoesNotWaitForBlockedStorageWrite" classname="vn.edu.usth.cloudclient.auth.CredentialVaultTest" time="0.006" />
+  <testcase name="oldRestoreCannotClearNewAccount" classname="vn.edu.usth.cloudclient.auth.CredentialVaultTest" time="0.001" />
+  <testcase name="lateRefreshCannotRestoreLoggedOutCredential" classname="vn.edu.usth.cloudclient.auth.CredentialVaultTest" time="0.0" />
+  <testcase name="currentSessionCanPersistAndReloadRefresh" classname="vn.edu.usth.cloudclient.auth.CredentialVaultTest" time="0.0" />
+  <testcase name="queuedLogoutStillClearsBeforeLaterRestore" classname="vn.edu.usth.cloudclient.auth.CredentialVaultTest" time="0.0" />
+  <testcase name="diskFailureIsNotReportedAsSuccess" classname="vn.edu.usth.cloudclient.auth.CredentialVaultTest" time="0.0" />
+  <system-out />
+  <system-err />
+</testsuite><testsuite name="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-16T09:19:03" hostname="WHITEWOLF" time="0.169">
+  <properties />
+  <testcase name="sdkMetadataMapsIdsAndKeepsCursorEvenForEmptyPage" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.117" />
+  <testcase name="expiredAccessRefreshesAndPersistsNewCredential" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.037" />
+  <testcase name="revokedRefreshTokenRequiresLogin" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.0" />
+  <testcase name="continuationUsesOpaqueCursorWithoutReconstructingPath" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.0" />
+  <testcase name="initialListUsesRootAndPersistsCredential" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001" />
+  <testcase name="rateLimitDoesNotBecomeEmptySuccess" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001" />
+  <testcase name="invalidatedSessionDoesNotSendRequest" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.0" />
+  <testcase name="storageFailureIsNotAListingSuccess" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001" />
+  <testcase name="revokedAccessIsAnAuthError" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.002" />
+  <testcase name="logoutDuringResponseDiscardsPageAndCredential" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001" />
+  <testcase name="missingFolderHasDistinctRecovery" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.004" />
+  <testcase name="missingScopeIsPermissionError" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.002" />
+  <system-out />
+  <system-err />
+</testsuite><testsuite name="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-16T09:19:03" hostname="WHITEWOLF" time="0.002">
+  <properties />
+  <testcase name="emptyFolderIsSuccess" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0" />
+  <testcase name="invalidCursorFailsExplicitly" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.001" />
+  <testcase name="paginationReturnsEveryItemOnce" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0" />
+  <testcase name="failureIsNotAnEmptyFolder" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0" />
+  <testcase name="cursorCannotCrossFolders" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0" />
+  <testcase name="pageCannotBeMutatedByUi" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.001" />
+  <system-out />
+  <system-err />
+</testsuite><testsuite name="vn.edu.usth.cloudclient.model.FolderPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-16T09:19:03" hostname="WHITEWOLF" time="0.0">
+  <properties />
+  <testcase name="repeatedIdUpdatesMetadataWithoutDuplicatingOrReordering" classname="vn.edu.usth.cloudclient.model.FolderPageTest" time="0.0" />
+  <system-out />
+  <system-err />
+</testsuite></testsuites>

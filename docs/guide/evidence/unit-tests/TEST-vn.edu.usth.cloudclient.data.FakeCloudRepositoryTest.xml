@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-16T09:19:03" hostname="WHITEWOLF" time="0.002">
+  <properties/>
+  <testcase name="emptyFolderIsSuccess" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0"/>
+  <testcase name="invalidCursorFailsExplicitly" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.001"/>
+  <testcase name="paginationReturnsEveryItemOnce" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0"/>
+  <testcase name="failureIsNotAnEmptyFolder" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0"/>
+  <testcase name="cursorCannotCrossFolders" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.0"/>
+  <testcase name="pageCannotBeMutatedByUi" classname="vn.edu.usth.cloudclient.data.FakeCloudRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-16T09:19:03" hostname="WHITEWOLF" time="0.169">
+  <properties/>
+  <testcase name="sdkMetadataMapsIdsAndKeepsCursorEvenForEmptyPage" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.117"/>
+  <testcase name="expiredAccessRefreshesAndPersistsNewCredential" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.037"/>
+  <testcase name="revokedRefreshTokenRequiresLogin" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.0"/>
+  <testcase name="continuationUsesOpaqueCursorWithoutReconstructingPath" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.0"/>
+  <testcase name="initialListUsesRootAndPersistsCredential" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001"/>
+  <testcase name="rateLimitDoesNotBecomeEmptySuccess" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001"/>
+  <testcase name="invalidatedSessionDoesNotSendRequest" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.0"/>
+  <testcase name="storageFailureIsNotAListingSuccess" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001"/>
+  <testcase name="revokedAccessIsAnAuthError" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.002"/>
+  <testcase name="logoutDuringResponseDiscardsPageAndCredential" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.001"/>
+  <testcase name="missingFolderHasDistinctRecovery" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.004"/>
+  <testcase name="missingScopeIsPermissionError" classname="vn.edu.usth.cloudclient.data.DropboxCloudRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
