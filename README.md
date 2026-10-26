@@ -2,6 +2,7 @@
 
 Project học tập Android **Java + XML**: làm Dropbox trước, mở rộng Box sau.
 Bắt đầu tại [docs/guide/README.md](docs/guide/README.md).
+Tiếp tục project bằng AI trên máy khác: [guide 14](docs/guide/14-ai-handoff.md).
 
 ## Trạng thái hiện tại
 

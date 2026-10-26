@@ -22,6 +22,7 @@ ghép vào đúng lớp và hoàn thiện xử lý lỗi; không phải mọi đ
 | [11 — Tham khảo](11-references.md) | Nguồn chính thức và bài đọc | Biết đọc trang nào, để giải quyết gì |
 | [12 — Kiểm chứng](12-verification.md) | Xem phần đã/chưa kiểm tra của khung | Không nhầm skeleton với sản phẩm |
 | [13 — Chạy mẫu Dropbox](13-run-dropbox-sample.md) | Cấu hình và đọc code OAuth/browse đã triển khai | Chạy thử với tài khoản của bạn |
+| [14 — AI handoff](14-ai-handoff.md) | Chuyển máy/phiên AI bằng ngữ cảnh trong Git | Tiếp tục mà không đọc lại toàn bộ lịch sử |
 
 ## Cách học mỗi bài
 
